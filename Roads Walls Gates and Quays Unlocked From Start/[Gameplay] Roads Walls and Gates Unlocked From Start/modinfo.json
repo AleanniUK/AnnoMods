@@ -1,0 +1,32 @@
+{
+  "Version": "1.4.0",
+  "Anno": 8,
+  "ModID": "ryanmacham-roads-unlocked-from-start",
+  "Difficulty": "easier",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": false,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [
+      "gz2k2-custom-streets"
+    ],
+    "LoadAfter": [
+      "gz2k2-custom-streets"
+    ],
+    "Deprecate": [],
+    "Incompatible": []
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "Roads, Walls, Gates & Quays Unlocked From Start"
+  },
+  "Description": {
+    "English": "Unlocks the vanilla earthen, paved, marble, marsh, and continuous quay street families plus Roman and Celtic wooden and stone walls and gates from the start. Construction costs, maintenance, speed, aqueducts, canals, trading piers, repair cranes, shipyards, towers, other military buildings, and decorative walls are unchanged. Existing saves are supported."
+  }
+}

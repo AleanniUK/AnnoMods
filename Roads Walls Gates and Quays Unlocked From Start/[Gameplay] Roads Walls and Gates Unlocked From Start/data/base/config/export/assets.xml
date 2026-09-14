@@ -1,0 +1,369 @@
+<ModOps>
+
+  <!--
+    New-game defaults for the vanilla constructable Street assets in the
+    extracted Anno 117 base data. These are deliberately explicit so the mod
+    does not accidentally include mod-added streets, aqueducts, canals, or
+    ornaments.
+  -->
+  <ModOp Merge="@8541/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@23996/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@77947/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@27499/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@28602/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@80148/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@30449/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@80171/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@80172/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@50218/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@81161/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@81162/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@24355/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@24357/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@77948/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@23997/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@77926/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@77927/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@80167/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+
+  <!--
+    Vanilla Roman and Celtic continuous quay tools and their harbour category
+    containers. Trading piers, repair cranes, shipyards, and other harbour
+    progression remain locked.
+  -->
+  <ModOp Merge="@41342/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@42436/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@41369/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@41339/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+
+  <!-- Regional military menu containers; their other contents stay locked. -->
+  <ModOp Merge="@41368/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@41338/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+
+  <!-- Roman and Celtic wooden walls, gates, and automatic crossings. -->
+  <ModOp Merge="@54986/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@54989/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@54997/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@55000/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@54988/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@71452/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@54999/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@71448/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+
+  <!-- Roman and Celtic stone walls, gates, and automatic crossings. -->
+  <ModOp Merge="@27889/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@27888/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@29543/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@29545/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@42550/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@71453/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@42551/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+  <ModOp Merge="@71446/Locked">
+    <Locked>
+      <DefaultLockedState>0</DefaultLockedState>
+    </Locked>
+  </ModOp>
+
+  <!--
+    Runtime unlock for existing saves as well as new games. These are Ubisoft's
+    own road-only asset pools: Roman dirt, Celtic dirt/marsh, all paved/stone
+    streets, and all marble streets; the vanilla continuous quay pool and tools;
+    plus the dedicated wooden and stone wall and gate pools. The constructable
+    wall, gate, and automatic-crossing assets are also unlocked directly so
+    existing saves expose the military category reliably. Harbour and military
+    categories are unlocked only as menu containers; their other contents are
+    not unlocked.
+  -->
+  <ModOp Type="addNextSibling" GUID="55125">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999091302</GUID>
+          <Name>Migration 1.4 Unlock Vanilla Roads Walls Gates and Quays</Name>
+        </Standard>
+        <Locked />
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionTimer</Template>
+            <Values>
+              <Condition />
+              <ConditionTimer>
+                <TimeLimit>1000</TimeLimit>
+              </ConditionTimer>
+            </Values>
+            <IsBaseAutoCreateAsset>0</IsBaseAutoCreateAsset>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>37981</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>37982</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>38992</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>77949</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>71113</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>71112</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>51941</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>41342</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>42436</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>41369</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>41339</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>54986</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>54989</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>54997</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>55000</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>54988</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>71452</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>54999</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>71448</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>27889</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>27888</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>29543</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>29545</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>42550</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>71453</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>42551</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>71446</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>41368</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>41338</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedByFirstParties>1</UsedByFirstParties>
+          <UsedBySecondParties>0</UsedBySecondParties>
+          <UsedByThirdParties>0</UsedByThirdParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

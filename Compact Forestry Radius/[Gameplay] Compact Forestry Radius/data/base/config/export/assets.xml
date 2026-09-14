@@ -1,0 +1,67 @@
+<ModOps>
+
+  <!--
+    Roman woodcutter
+    Vanilla InfluenceRadius: 8
+    Vanilla NeededArea: 80
+  -->
+  <ModOp GUID="2878" Merge="FreeAreaProductivity">
+    <FreeAreaProductivity>
+      <InfluenceRadius>
+        <ModValue Insert="$woodcutter-radius"/>
+      </InfluenceRadius>
+      <NeededArea>
+        <ModValue Insert="$required-forest-area"/>
+      </NeededArea>
+    </FreeAreaProductivity>
+  </ModOp>
+
+  <!--
+    Celtic woodcutter
+    Vanilla InfluenceRadius: 8
+    Vanilla NeededArea: 80
+  -->
+  <ModOp GUID="5976" Merge="FreeAreaProductivity">
+    <FreeAreaProductivity>
+      <InfluenceRadius>
+        <ModValue Insert="$woodcutter-radius"/>
+      </InfluenceRadius>
+      <NeededArea>
+        <ModValue Insert="$required-forest-area"/>
+      </NeededArea>
+    </FreeAreaProductivity>
+  </ModOp>
+
+  <!--
+    Roman charcoal kiln
+    Vanilla InfluenceRadius: 9
+    Vanilla NeededArea: 80
+  -->
+  <ModOp GUID="2880" Merge="FreeAreaProductivity">
+    <FreeAreaProductivity>
+      <InfluenceRadius>
+        <ModValue Insert="$charcoal-radius"/>
+      </InfluenceRadius>
+      <NeededArea>
+        <ModValue Insert="$required-forest-area"/>
+      </NeededArea>
+    </FreeAreaProductivity>
+  </ModOp>
+
+  <!--
+    Celtic charcoal kiln
+    Vanilla InfluenceRadius: 9
+    Vanilla NeededArea: 80
+  -->
+  <ModOp GUID="5977" Merge="FreeAreaProductivity">
+    <FreeAreaProductivity>
+      <InfluenceRadius>
+        <ModValue Insert="$charcoal-radius"/>
+      </InfluenceRadius>
+      <NeededArea>
+        <ModValue Insert="$required-forest-area"/>
+      </NeededArea>
+    </FreeAreaProductivity>
+  </ModOp>
+
+</ModOps>
