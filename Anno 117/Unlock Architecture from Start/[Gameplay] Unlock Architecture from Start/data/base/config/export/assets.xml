@@ -1,5 +1,6 @@
 <ModOps>
 
+  <Group Condition="$unlock-roads">
   <!--
     New-game defaults for the vanilla constructable Street assets in the
     extracted Anno 117 base data. These are deliberately explicit so the mod
@@ -102,6 +103,61 @@
     </Locked>
   </ModOp>
 
+  <!-- Runtime road unlock for existing saves. -->
+  <ModOp Type="addNextSibling" GUID="55125">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999091303</GUID>
+          <Name>Migration 1.5 Unlock Vanilla Roads</Name>
+        </Standard>
+        <Locked />
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionTimer</Template>
+            <Values>
+              <Condition />
+              <ConditionTimer>
+                <TimeLimit>1000</TimeLimit>
+              </ConditionTimer>
+            </Values>
+            <IsBaseAutoCreateAsset>0</IsBaseAutoCreateAsset>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item><Asset>37981</Asset></Item>
+                      <Item><Asset>37982</Asset></Item>
+                      <Item><Asset>38992</Asset></Item>
+                      <Item><Asset>77949</Asset></Item>
+                      <Item><Asset>71113</Asset></Item>
+                      <Item><Asset>71112</Asset></Item>
+                      <Item><Asset>51941</Asset></Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedByFirstParties>1</UsedByFirstParties>
+          <UsedBySecondParties>0</UsedBySecondParties>
+          <UsedByThirdParties>0</UsedByThirdParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+  </Group>
+
+  <Group Condition="$unlock-quays">
   <!--
     Vanilla Roman and Celtic continuous quay tools and their harbour category
     containers. Trading piers, repair cranes, shipyards, and other harbour
@@ -128,6 +184,58 @@
     </Locked>
   </ModOp>
 
+  <!-- Runtime continuous-quay unlock for existing saves. -->
+  <ModOp Type="addNextSibling" GUID="55125">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999091305</GUID>
+          <Name>Migration 1.5 Unlock Vanilla Continuous Quays</Name>
+        </Standard>
+        <Locked />
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionTimer</Template>
+            <Values>
+              <Condition />
+              <ConditionTimer>
+                <TimeLimit>1000</TimeLimit>
+              </ConditionTimer>
+            </Values>
+            <IsBaseAutoCreateAsset>0</IsBaseAutoCreateAsset>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item><Asset>41342</Asset></Item>
+                      <Item><Asset>42436</Asset></Item>
+                      <Item><Asset>41369</Asset></Item>
+                      <Item><Asset>41339</Asset></Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedByFirstParties>1</UsedByFirstParties>
+          <UsedBySecondParties>0</UsedBySecondParties>
+          <UsedByThirdParties>0</UsedByThirdParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+  </Group>
+
+  <Group Condition="$unlock-walls-gates">
   <!-- Regional military menu containers; their other contents stay locked. -->
   <ModOp Merge="@41368/Locked">
     <Locked>
@@ -225,22 +333,16 @@
   </ModOp>
 
   <!--
-    Runtime unlock for existing saves as well as new games. These are Ubisoft's
-    own road-only asset pools: Roman dirt, Celtic dirt/marsh, all paved/stone
-    streets, and all marble streets; the vanilla continuous quay pool and tools;
-    plus the dedicated wooden and stone wall and gate pools. The constructable
-    wall, gate, and automatic-crossing assets are also unlocked directly so
-    existing saves expose the military category reliably. Harbour and military
-    categories are unlocked only as menu containers; their other contents are
-    not unlocked.
+    Runtime fortification unlock for existing saves. Menu containers are
+    unlocked only to expose their selected wall and gate contents.
   -->
   <ModOp Type="addNextSibling" GUID="55125">
     <Asset>
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>1999091302</GUID>
-          <Name>Migration 1.4 Unlock Vanilla Roads Walls Gates and Quays</Name>
+          <GUID>1999091304</GUID>
+          <Name>Migration 1.5 Unlock Vanilla Walls and Gates</Name>
         </Standard>
         <Locked />
         <Trigger>
@@ -262,39 +364,6 @@
                   <Action />
                   <ActionUnlockAsset>
                     <UnlockAssets>
-                      <Item>
-                        <Asset>37981</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>37982</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>38992</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>77949</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>71113</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>71112</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>51941</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>41342</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>42436</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>41369</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>41339</Asset>
-                      </Item>
                       <Item>
                         <Asset>54986</Asset>
                       </Item>
@@ -365,5 +434,6 @@
       </Values>
     </Asset>
   </ModOp>
+  </Group>
 
 </ModOps>

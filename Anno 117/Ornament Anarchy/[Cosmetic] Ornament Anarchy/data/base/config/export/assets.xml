@@ -1,0 +1,19 @@
+<ModOps>
+
+  <!--
+    Apply beauty-build anarchy to every ornament asset available when this
+    late-phase mod loads. Functional buildings without the Ornament property
+    retain their normal construction restrictions.
+  -->
+  <ModOp Type="merge" Path="//Asset[Values/Ornament]/Values">
+    <Blocking>
+      <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+      <BlocksBuilding>0</BlocksBuilding>
+      <DisableBlockingByDefault>1</DisableBlockingByDefault>
+      <HasBuildingBaseTiles>0</HasBuildingBaseTiles>
+      <HidePropsRadius>0</HidePropsRadius>
+      <DeletePropsRadius>0</DeletePropsRadius>
+    </Blocking>
+  </ModOp>
+
+</ModOps>

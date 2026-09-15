@@ -1,0 +1,31 @@
+{
+  "Version": "1.0.0",
+  "Anno": 8,
+  "ModID": "aleanni-ornament-anarchy",
+  "CreatorName": "Aleanni",
+  "Difficulty": "easier",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": false,
+    "Multiplayer": false,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [
+      "*"
+    ],
+    "Deprecate": [],
+    "Incompatible": []
+  },
+  "Category": {
+    "English": "Cosmetic"
+  },
+  "ModName": {
+    "English": "Ornament Anarchy"
+  },
+  "Description": {
+    "English": "Makes every ornament available at load time non-blocking, allowing ornaments, buildings, walls, colonnades, roads, and other decorations to overlap for unrestricted beauty building. The mod automatically uses the late loading phase so it applies after normal-phase vanilla and mod-added ornaments. Another late-phase ornament mod may require an explicit load-order rule."
+  }
+}

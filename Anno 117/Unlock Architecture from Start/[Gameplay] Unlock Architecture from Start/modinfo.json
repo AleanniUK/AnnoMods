@@ -1,0 +1,46 @@
+{
+  "Version": "1.6.0",
+  "Anno": 8,
+  "ModID": "aleanni-roads-unlocked-from-start",
+  "CreatorName": "Aleanni",
+  "Difficulty": "easier",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": false,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": [],
+    "Incompatible": []
+  },
+  "Options": {
+    "unlock-roads": {
+      "label": "Unlock Roads From Start",
+      "type": "toggle",
+      "default": "true"
+    },
+    "unlock-walls-gates": {
+      "label": "Unlock Walls and Gates From Start",
+      "type": "toggle",
+      "default": "true"
+    },
+    "unlock-quays": {
+      "label": "Unlock Continuous Quays From Start",
+      "type": "toggle",
+      "default": "true"
+    }
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "Unlock Architecture from Start"
+  },
+  "Description": {
+    "English": "Adds independent options to unlock vanilla roads, continuous quays, and Roman and Celtic walls and gates from the start. All three categories are enabled by default. Construction costs, maintenance, speed, aqueducts, canals, trading piers, repair cranes, shipyards, towers, other military buildings, and decorative walls are unchanged. Existing saves are supported, although assets unlocked by an earlier version cannot be safely re-locked."
+  }
+}

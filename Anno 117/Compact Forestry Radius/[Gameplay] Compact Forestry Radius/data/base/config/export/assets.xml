@@ -11,7 +11,7 @@
         <ModValue Insert="$woodcutter-radius"/>
       </InfluenceRadius>
       <NeededArea>
-        <ModValue Insert="$required-forest-area"/>
+        <ModValue Insert="$needed-woodcutter-trees"/>
       </NeededArea>
     </FreeAreaProductivity>
   </ModOp>
@@ -27,7 +27,7 @@
         <ModValue Insert="$woodcutter-radius"/>
       </InfluenceRadius>
       <NeededArea>
-        <ModValue Insert="$required-forest-area"/>
+        <ModValue Insert="$needed-woodcutter-trees"/>
       </NeededArea>
     </FreeAreaProductivity>
   </ModOp>
@@ -39,11 +39,8 @@
   -->
   <ModOp GUID="2880" Merge="FreeAreaProductivity">
     <FreeAreaProductivity>
-      <InfluenceRadius>
-        <ModValue Insert="$charcoal-radius"/>
-      </InfluenceRadius>
       <NeededArea>
-        <ModValue Insert="$required-forest-area"/>
+        <ModValue Insert="$needed-roman-charcoal-trees"/>
       </NeededArea>
     </FreeAreaProductivity>
   </ModOp>
@@ -55,11 +52,8 @@
   -->
   <ModOp GUID="5977" Merge="FreeAreaProductivity">
     <FreeAreaProductivity>
-      <InfluenceRadius>
-        <ModValue Insert="$charcoal-radius"/>
-      </InfluenceRadius>
       <NeededArea>
-        <ModValue Insert="$required-forest-area"/>
+        <ModValue Insert="$needed-celtic-charcoal-trees"/>
       </NeededArea>
     </FreeAreaProductivity>
   </ModOp>
